@@ -1,6 +1,5 @@
-# sftp<br>
-slow sftp commands with speed control,<br>
-sftp with communication load generation control function for slow network shared network<br>
+# sftp : slow sftp commands with speed control for slow shared network <br>
+slow sftp commands with speed control for slow shared network<br>
 <br>
 This sftp is an application using jcraft.<br>
 The directory under com is the unpacked file to create the jar file.<br>
