@@ -138,7 +138,9 @@ public class sftp {
         sess.setConfig(config);
         sess.setTimeout(10000);
         sess.connect();
-        ChannelSftp ch = (ChannelSftp) sess.openChannel("sftp");        
+        ChannelSftp ch = (ChannelSftp) sess.openChannel("sftp");   
+        ch.setEnv("SSH_MSG_CHANNEL_DATA", ""+ BLOCKSZ);
+        ch.setEnv("SSH_MSG_CHANNEL_WINDOW_ADJUST", "" + BLOCKSZ);
         try {
             ch.connect();
             if ("ls".equals(func) || "LS".equals(func)) {
