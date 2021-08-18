@@ -1,7 +1,7 @@
 sftp : slow sftp commands with speed control for slow shared network  <br>
 # sftp
  slow sftp commands with speed control for slow shared network  <br>
- Prevent network monopoly of sftp operations <br>
+ Prevent network monopoly by sftp  <br>
 <br>
 This sftp is an application using jcraft.<br>
 The directory under com is the unpacked file to create the jar file.<br>
