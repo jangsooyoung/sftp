@@ -1,5 +1,5 @@
 set -v 
 javac -classpath . woorisftp.java
-jar -vcfm  woorisftp.jar Manifest.txt  com woorisftp.class "woorisftp\$FileInputStreamSleep.class" *.java readme.txt
+jar -vcfm  sftp.jar Manifest.txt  com sftp.class "sftp\$FileInputStreamSleep.class" *.java readme.txt
 
 
