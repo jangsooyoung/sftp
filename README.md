@@ -31,9 +31,9 @@ option<br>
 # Note: <br>
  Description Arguments must be in order<br>
   OK ) java -jar sftp.jar get user@remote_ip:remote_file -m <br>
-  ERR) java -jar sftp.jar -m get user@remote_ip:remote_file<br>
+  ERR) java -jar sftp.jar <strong style="color:red;">-m</strong>  get user@remote_ip:remote_file<br>
 <br>
  Do not use spaces for option values.<br>
   OK)  -Pxxxxx<br>
-  ERR) -P xxxxx<br>
+  ERR) -P<strong style="color:red;"> </strong>xxxxx<br>
 
