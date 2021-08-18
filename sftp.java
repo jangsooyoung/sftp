@@ -5,8 +5,8 @@ import java.text.*;
 import java.util.*;
 
 public class sftp {
-	  public static boolean	is_msg = false;
-	  public static boolean	is_hash = false;
+    public static boolean    is_msg = false;
+    public static boolean    is_hash = false;
     public static int BLOCKSZ = 1024;
     public static String id_rsa = "~/.ssh/id_rsa";
     public static String passwd = null;
