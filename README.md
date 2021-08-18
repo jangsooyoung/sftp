@@ -24,7 +24,6 @@ option
         -sSleeptm     :  sleep_ms per blocksz (default 100 ms)
         -m            :  print message
         -h            :  process stat ('.' per block) 100 ms)<br>
-    -m            :  print message<br>
 <br>
 # Note: <br>
  Description Arguments must be in order<br>
